@@ -339,20 +339,53 @@ a{
     background: rgba(236, 239, 241,1) !important;
 }
 
+@media screen and (max-width: 380px){
+    .header-inicio {
+        background: url(./assets/images/background/medic.png) no-repeat center;
+        background-size: cover;
+        max-width: 100%;
+       max-height: 100%;
+       // min-height: 60vh;
+       
+      }
+      .label-header-placement{
+          margin-top: 120px;
+          font-size: 20px;
+      }
+    
+}
+
+
+@media screen and (min-width: 381px){
+    .header-inicio {
+        background: url(./assets/images/background/medic.png) no-repeat center;
+        background-size: cover;
+        max-width: 100%;
+       max-height: 100%;
+       // min-height: 60vh;
+       
+      }
+    
+}
+
 
 .navbar-img { 
-    width: 100%; 
-    height: 100%; 
+    height: 50%;
     object-fit: contain; 
 } 
 
-.header {
-  background: url(./assets/images/background/medic.png) no-repeat center;
-  background-size: cover;
-  max-width: 100%;
-  min-height: 50vh;
- 
+
+
+/**********************************IMAGES ***********************************/
+
+.image-size{
+    
+  //  background-size: cover;
+    width: 64px;
+    height: 64px;
+  //  min-height: 60vh;
 }
+
 
 /**********************************BACKGROUNDS ***********************************/
 
@@ -1405,7 +1438,7 @@ FIN  ESTILO DE LA BARRA
 
 .vcontainer {
     min-height: 10em;
-    display: table-cell;
+  //  display: table-cell;
     vertical-align: middle;
    
 }
